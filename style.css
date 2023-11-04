@@ -1,0 +1,104 @@
+body {
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.socials {
+    height: 50px;
+    width: auto;
+    float: right;
+}
+
+.mid {
+    text-align: center;
+}
+
+.first {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+}
+
+.head {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.small {
+    font-size: 20px;
+}
+
+.form {
+    color: black;
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    background-color: #34bf59;
+    line-height: 50px;
+}
+
+.form:hover {
+    background-color: #21de53;
+}
+
+.bodyCont {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.green {
+    background-color: #34bf59;
+    flex: 0 0 50%;
+    margin: none;
+    height: 785px;
+}
+
+.image {
+    flex: 1;
+    margin: none;
+}
+
+#stuff {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.bottom {
+    margin-top: 20px;
+    width: 55%;
+    margin-left: auto;
+}
+
+.footer {
+    text-align: center;
+    width: 17%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+}
+
+.feeter {
+    width: 100%;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 10px;
+    margin-top: 70px;
+    margin-top: 40px;
+}
