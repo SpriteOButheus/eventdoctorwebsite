@@ -42,6 +42,7 @@ p {
 	font-family: "Source Sans Pro";
 	font-size: 16px;
 	color:grey;
+	text-align: center;
 }
 
 /* .layer:hover h3{
@@ -75,3 +76,35 @@ a {
 		float: right;
 }
  */
+
+
+/* @media (max-width: 768px) {
+	.team {
+		width: 100%; /* Full width for smaller screens 
+	}
+
+	.team-col {
+		flex-basis: 80%;  Take up the full width on smaller screens 
+		margin-left: 0;  Remove left margin 
+		margin-right: 0;  Remove right margin 
+	}
+} */
+
+@media (max-width: 768px) {
+	.team {
+		width: 100%;
+		padding: 20px; 
+	}
+
+	.team-col {
+		flex-basis: 100%;
+		margin: 10px;
+	}
+
+	@media (max-width: 768px) {
+		p {
+			margin: 10px;
+			text-align: center;
+		}
+	}
+}
