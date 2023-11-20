@@ -7,23 +7,61 @@ body {
 .navbar {
     flex-direction: row;
     text-decoration: none;
+    margin-top: 0px;
 }
 
 .socials {
-    height: 50px;
-    width: auto;
     float: right;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.insta {
+    margin-right: 2%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.tiktok {
+    margin-right: 1%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.insta2 {
+    height: 3%;
+    width: 3%;
+    margin-left: 43%;
 }
 
 .mid {
     text-align: center;
+    align-self: center;
+    margin-right: 10%;
+    margin-top: 1.5%;
+    font-family: 'Cabin', sans-serif;
+}
+
+.home {
+    margin-right: 5%;
+    padding-top: 2%;
+}
+
+.team {
+    padding-top: 2%;
 }
 
 .first {
     float: left;
+    font-size: 25px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    margin-left: 2.5%;
+    margin-top: 1%;
 }
 
 a {
+    color: black;
     text-decoration: none;
 }
 
@@ -77,28 +115,83 @@ a {
 }
 
 #stuff {
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .bottom {
     margin-top: 20px;
-    width: 55%;
-    margin-left: auto;
+    align-self: center;
 }
 
 .footer {
     text-align: center;
-    width: 17%;
     font-family: 'Cabin', sans-serif;
     font-size: 30px;
 }
 
-.feeter {
+.copyright {
     width: 100%;
     text-align: center;
     font-family: 'Cabin', sans-serif;
     font-size: 10px;
     margin-top: 70px;
     margin-top: 40px;
+    font-size: 14px;
+}
+
+.text {
+    margin-left: 15%;
+    margin-top: 7%;
+    margin-right: 15%;
+}
+
+.text p {
+    font-size: 17px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.foot {
+    margin-left: 3%;
+    
+}
+
+@media (max-width: 768px) {
+    .head {
+        font-size: 40px;
+    }
+    .header {
+        width: 100%;
+    }
+    .small {
+        font-size: 15px;
+    }
+    .green p {
+        font-size: 15px;
+    }
+    .green h1 {
+        font-size: 25px;
+    }
+    .first {
+        font-size: 20px;
+    }
+    .home, .team {
+        font-size: 15px;
+    }
+    .mid {
+        margin-right: 20%;
+    }
+    .bodyCont {
+        flex-direction: column;
+    }
+    .footer {
+        margin-right: 50%;
+        width: 100%;
+        font-size: 20px;
+    }
+    .insta2 {
+        height: 10%;
+        width: 10%;
+        margin-left: 35%;
+    }
 }
